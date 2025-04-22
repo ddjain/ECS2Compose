@@ -15,3 +15,8 @@ A simple web-based tool that converts AWS ECS Task Definition JSON into a Docker
   - `depends_on` relationships
 - Live dual-pane editor using Ace Editor
 - Instant YAML generation with a single click
+
+
+## Demo
+
+You can try the app live here: [ECS2Compose Demo](https://ddjain.github.io/ECS2Compose/)

@@ -3,5 +3,5 @@
 //   };
   
 export default {
-  base: '/ddjain/', 
+  base: '/ECS2Compose/', 
 }

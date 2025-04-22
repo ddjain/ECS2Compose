@@ -46,12 +46,7 @@ function convertEcsToDockerCompose(taskDef) {
 
   taskDef.volumes?.forEach(vol => {
     compose.volumes[vol.name] = {
-      driver: "local",
-      driver_opts: {
-        device: vol.host?.sourcePath || "",
-        o: "bind",
-        type: "none"
-      }
+      driver: "local"
     };
   });
 
